@@ -1,0 +1,10 @@
+playsound==1.2.2
+pyAudio
+asyncio
+nest_asyncio
+websockets
+requests
+vosk
+google-cloud-dialogflow
+python-vlc
+yandex-music
