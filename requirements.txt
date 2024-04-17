@@ -8,3 +8,5 @@ vosk
 google-cloud-dialogflow
 python-vlc
 yandex-music
+pycryptodome
+bs4
