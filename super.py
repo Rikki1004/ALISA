@@ -1,14 +1,14 @@
+from speech_recognition import YandexVoiceRecognition
+from text_to_voise import YandexVoiceGenerator
+from google.cloud import dialogflow
+from playsound import playsound
 import asyncio
-import nest_asyncio
 import time
 import warnings
 import os
 import threading
 import general_audio
-from speech_recognition import YandexVoiceRecognition
-from text_to_voise import YandexVoiceGenerator
-from google.cloud import dialogflow
-from playsound import playsound
+import nest_asyncio
 nest_asyncio.apply()
 
 loop = asyncio.get_event_loop()
